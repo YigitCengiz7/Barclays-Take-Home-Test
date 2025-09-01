@@ -1,0 +1,6 @@
+package com.barclays.eaglebank.exceptions;
+
+public class ConflictException extends RuntimeException {
+    public ConflictException(String message) { super(message); }
+}
+
